@@ -1,0 +1,464 @@
+*{
+    margin:0;
+    padding:0;
+}
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.fl-lf{
+    float: left;
+}
+.fl-rgt{
+    float: right;
+}
+.mg-top{
+    margin-top: 0.3125rem;
+}
+.paddings{
+    padding: 0.3125rem;
+}
+body{
+    font:400 14px 'Microsoft Yahei',H.org-special lielvetica,Arial,sans-serif;
+    background-color:rgb(242, 243, 245); 
+    width: 11.72rem;
+    margin:0 auto;
+}
+.content{
+    width: 100%;
+    margin:0 auto;
+    background: skyblue;
+}
+/*顶部图片*/
+.imgTitle{
+    width: 100%;
+    height: 6.565rem;
+}
+.imgTitle img{
+    width: 100%;
+    height: 100%;
+}
+/*顶部价格*/
+.price-time{
+    width: 100%;
+    height: 1.405rem;
+}
+.price{
+    width: 6.72rem;
+    height: 1.405rem;
+    line-height: 1.405rem;
+    color: #fff;
+    background-color:  #FF4443;
+}
+.moneyCount{
+    margin-left:0.625rem;
+    font-size: 0.47rem;
+}
+.moneyCount .numCount{
+    font-size: 0.75rem;
+}
+.moneyOrg{
+    display: inline-block;
+    margin-top: 0.4525rem;
+    margin-left: 10px;
+    width: 2.03rem;
+    height: 0.5rem;
+    font-size: 0.345rem;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: line-through;
+    background-color:#d80000;
+    border-radius: 0.25rem;
+    line-height: 0.5rem;
+}
+.time{
+    width: 5rem;
+    height: 1.405rem;
+    text-align: center;
+    background-color: #FCF4F4;
+}
+.time-text{
+    width: 100%;
+    height: 0.7025rem;
+    line-height: 0.7025rem;
+    font-size: 0.345rem;
+    color: #FF4443;
+}
+.time-num{
+    width: 100%;
+    height: 0.7025rem;
+    font-size: 0.375rem;
+    /*line-height: 0.7025rem;*/
+    color: #000;
+    vertical-align: middle;
+}
+.time-num span{
+    display: inline-block;
+    width: 0.47rem;
+    height: 0.53rem; 
+    font-size: 0.375rem;
+    line-height: 0.53rem;
+     color: #fff;
+    background-color: #000;
+   
+}
+.time-num i{
+    margin-left: 0.15625rem;
+    margin-right: 0.15625rem;
+    font-style: normal;
+}
+/*商品标题*/
+.shopTitle{
+    /*width: 100%;*/
+    background-color: #fff;
+}
+.shopTitle h3{
+    color:#333;
+    line-height: 0.75rem;
+    font-size: 0.53rem;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.shopTitle .pin-text{
+    margin-top: 0.3125rem;
+    margin-bottom: 0.3125rem;
+    font-size: 0.375rem;
+    
+}
+.blo{
+    display: inline-block;
+    width: 0.685rem;
+    height: 0.685rem;
+    line-height: 0.685rem;
+    text-align: center;
+    color: #fff;
+    background-color:#ff9700; 
+}
+.pin-num{
+    display: inline-block;
+    width: 2.375rem;
+    height: 0.625rem;
+    line-height: 0.625rem;
+    color:#ff9700; 
+    border:0.03rem solid #ff9700;
+    text-align:center;
+}
+.all-prg{
+    width: 11.095rem;
+    height: 0.19rem;
+    background-color: #CBE9F8;
+    border-radius: 0.095rem;
+}
+.act-prg{
+    width: 3.69rem;
+    height:0.19rem;
+    background-color: #1797CE;
+    border-radius: 0.095rem;
+}
+.tuan-num{
+    font-size: 0.375rem;
+    color: #333;
+    margin-top: 0.155rem;
+    margin-bottom: 0.47rem;
+}
+.tuan-num b{
+    margin: 0 0.15625rem;
+    font-size: 0.475rem;
+}
+.all-num{
+    color: pink;
+}
+.act-num{
+    color: #1797CE;
+}
+.last-num{
+    color: #FF4443;
+}
+.warning{
+    color: #999;
+    font-size: 0.375rem;
+    vertical-align: middle;
+}
+.warning img{
+    width: 0.44rem;
+    height: 0.44rem;
+    margin-right: 0.2rem;
+    vertical-align: middle;
+}
+.pep-num{
+    background-color: #fff;
+}
+.h-title{
+    height: 0.5rem;
+    line-height: 0.5rem;
+    padding-left: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 0.015rem solid #D8D8D8;
+}
+.h-text{
+    position: relative;
+    font-size: 0.47rem;
+    color: #333;
+}
+.h-text:before{
+    content: '';
+    position: absolute;
+    left: -0.25rem;
+    top: 0.1rem;
+    width: 0.1rem;
+    height: 0.38rem;
+    border-radius: 0.3125rem;
+    background-color:  #1797CE;
+}
+.more{
+    vertical-align: bottom;
+    font-size: 0.375rem;
+    color: #999;
+}
+.pep-names{
+    height: 1.095rem;
+    margin-top: 0.4rem;
+}
+.pep-names img{
+    width: 1.095rem;
+    height: 1.095rem;
+    border-radius: 100%;
+}
+.pep-detail{
+    width: 4rem;
+    height: 100%;
+    margin-left: 0.3rem;
+}
+i{
+    font-style: normal;
+}
+.pep-name{
+    margin-right: 0.3rem;
+}
+.pep-detail .detail{
+    font-size: 0.47rem;
+}
+.pep-last{
+    font-size: 0.375rem;
+    color: #999;
+}
+.pep-nub{
+    margin:0 0.2rem;
+    color: #FF4443;
+}
+.go-pinke{
+    display: block;
+    width: 2.125rem;
+    height: 0.905rem;
+    margin-top: 0.095rem;
+    line-height: 0.905rem;
+    color: #fff;
+    font-size: 0.405rem;
+    text-align: center;
+    background-color: #FF4443;
+    border-radius: 0.4525rem;
+}
+.play-ways{
+    font-size: 0.345rem;
+    color: #333;
+    background-color: #fff;
+}
+.play-ways .play-steps{
+    margin-top: 0.15rem;
+    height: 1rem;
+}
+.play-ways ul{
+    /*display: flex;*/
+    
+}
+.play-steps li{
+    /*flex: 1;*/
+    margin-right: 0.1rem;
+}
+.play-steps li img{
+    width: 0.44rem;
+    height: 0.44rem;
+    margin-top: 0.26rem;
+    margin-right: 0.1rem;
+}
+.play-steps li .left{
+    margin-top: 0.3rem;
+    margin-left: 0.25rem;
+}
+.class-int{
+    background-color: #fff;
+}
+.class-text{
+    font-size: 0.47rem;
+    color: #333;
+    line-height: 0.7rem;
+    font-size: 0.53rem;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+.class-img{
+    height: 6.565rem;
+}
+.class-img img{
+    width: 100%;
+    height: 100%;
+}
+.int-pep{
+    background-color: #fff;
+}
+.int-pep ul{
+    width: 5rem;
+    margin:0 auto;
+    text-align: left;
+}
+.int-pep li{
+    height:0.6rem;
+    margin-top: 0.3rem;
+    color: #222;
+    font-size:0.47rem;  
+    line-height: 0.6rem;
+}
+.int-pep li img{
+    width: 0.565rem;
+    height: 0.565rem;
+    vertical-align: middle;
+}
+.int-pep li span{
+    vertical-align: middle;
+}
+.teacher{
+    background-color: #fff
+}
+.teacher-info{
+    margin-top: 0.3rem;
+}
+.head-pto{
+    width: 2.19rem;
+    height: 2.19rem;
+}
+.head-pto img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.teacher-inf{
+    margin-left: 0.1rem;
+    width: 8.7rem;
+}
+.tec-name{
+    color: #222;
+    font-size: 0.53rem;
+    vertical-align: middle;
+}
+.tex-label{
+    display: inline-block;
+    width: 1.7rem;
+    height:0.5rem;
+    margin-left: 0.2rem;
+    line-height: 0.5rem;
+    color: #fff;
+    font-size: 0.315rem;
+    text-align: center;
+    background-color: #ffcd18;
+    vertical-align: middle;
+}
+.tec-title{
+    color: #1AA1FB;
+    line-height: 0.5rem;
+    font-size: 0.375rem;
+}
+.tec-text{
+    color: #222;
+    font-size: 0.47rem;
+}
+.class-outl{
+    background: #fff;
+}
+.outl-cont{
+    color: #333;
+    font-size: 0.47rem;
+}
+.not-reg{
+    background: #fff;
+}
+.not-cont,.start-cont{
+    margin-top: 0.2rem;
+    color: #333;
+    font-size: 0.47rem;
+}
+.start-class{
+    background: #fff;
+}
+.mg-lf{
+    margin-left: 0.5rem;
+}
+.start-txt{
+    width: 7.4525rem;
+}
+.wid{
+    width: 2rem;
+}
+.start-cont span{
+    float: left;
+}
+.start-cont p{
+    margin-top: 0.2rem;
+}
+.didian{
+    padding-left: 0.5rem;
+    border-left: 1px solid #eee;
+}
+.didian img{
+    width: 0.47rem;
+    height:0.595rem;
+}
+.insnal-infomation{
+    background: #fff;
+}
+.insnal-cont{
+    margin-top: 0.3rem;
+}
+.insnal-img{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 0.3rem;
+}
+.insnal-img img{
+    width: 100%;
+    height: 100%;
+}
+.insnal-title{
+    font-size: 0.53rem;
+    color:#222;
+    overflow:hidden;  
+}
+.insnal-info{
+    padding-left: 0.3rem;
+    color: #61696f;
+    font-size: 0.375rem;
+
+}
+.insnal-info img{
+    width: 0.3rem;
+    height: 0.3rem;
+}
+.insnal-info p{
+    line-height: 0.53rem;
+}
