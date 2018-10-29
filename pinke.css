@@ -530,6 +530,7 @@ i{
     width: 4.6rem;
     padding-top: 0.1rem;
     color: #fff;
+    z-index: 10;
     background-color: #FF4443;
     text-align: center;
 }
