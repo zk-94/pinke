@@ -20,10 +20,10 @@ a{
     float: right;
 }
 .mg-top{
-    margin-top: 0.3125rem;
+    margin-top: 0.3rem;
 }
 .paddings{
-    padding: 0.3125rem;
+    padding: 0.267rem;
 }
 body{
     font:400 12px 'Microsoft Yahei',H.org-special lielvetica,Arial,sans-serif;
@@ -34,12 +34,12 @@ body{
 .content{
     width: 100%;
     margin:0 auto;
-    background: skyblue;
+    padding-bottom: 1.5rem;
 }
 /*顶部图片*/
 .imgTitle{
     width: 100%;
-    height: 6.565rem;
+    height: 5.6rem;
 }
 .imgTitle img{
     width: 100%;
@@ -48,12 +48,12 @@ body{
 /*顶部价格*/
 .price-time{
     width: 100%;
-    height: 1.405rem;
+    height: 1.2rem;
 }
 .price{
-    width: 6.72rem;
-    height: 1.405rem;
-    line-height: 1.405rem;
+    width: 5.74rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
     color: #fff;
     background-color:  #FF4443;
 }
@@ -62,56 +62,56 @@ body{
     font-size: 0.47rem;
 }
 .moneyCount .numCount{
-    font-size: 0.75rem;
+    font-size: 0.64rem;
 }
 .moneyOrg{
     display: inline-block;
-    margin-top: 0.4525rem;
-    margin-left: 10px;
-    width: 2.03rem;
-    height: 0.5rem;
-    font-size: 0.345rem;
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
+    width: 2rem;
+    height: 0.6rem;
+    font-size: 0.294rem;
     font-weight: normal;
     text-align: center;
     text-decoration: line-through;
     background-color:#d80000;
-    border-radius: 0.25rem;
-    line-height: 0.5rem;
+    border-radius: 0.3rem;
+    line-height: 0.6rem;
 }
 .time{
-    width: 5rem;
-    height: 1.405rem;
+    width: 4.26rem;
+    height: 1.2rem;
     text-align: center;
     background-color: #FCF4F4;
 }
 .time-text{
     width: 100%;
-    height: 0.7025rem;
-    line-height: 0.7025rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
     font-size: 0.345rem;
     color: #FF4443;
 }
 .time-num{
     width: 100%;
     height: 0.7025rem;
-    font-size: 0.375rem;
+    font-size: 0.294rem;
     /*line-height: 0.7025rem;*/
     color: #000;
     vertical-align: middle;
 }
 .time-num span{
     display: inline-block;
-    width: 0.47rem;
-    height: 0.53rem; 
-    font-size: 0.375rem;
-    line-height: 0.53rem;
+    width: 0.45rem;
+    height: 0.45rem; 
+    font-size: 0.32rem;
+    line-height: 0.45rem;
      color: #fff;
     background-color: #000;
    
 }
 .time-num i{
-    margin-left: 0.15625rem;
-    margin-right: 0.15625rem;
+    margin-left: 0.15rem;
+    margin-right: 0.15rem;
     font-style: normal;
 }
 /*商品标题*/
@@ -121,8 +121,8 @@ body{
 }
 .shopTitle h3{
     color:#333;
-    line-height: 0.75rem;
-    font-size: 0.53rem;
+    line-height: 0.64rem;
+    font-size: 0.452rem;
     text-overflow: -o-ellipsis-lastline;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -132,50 +132,50 @@ body{
     -webkit-box-orient: vertical;
 }
 .shopTitle .pin-text{
-    margin-top: 0.3125rem;
-    margin-bottom: 0.3125rem;
-    font-size: 0.375rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    font-size: 0.32rem;
     
 }
 .blo{
     display: inline-block;
-    width: 0.685rem;
-    height: 0.685rem;
-    line-height: 0.685rem;
+    width: 0.584rem;
+    height: 0.584rem;
+    line-height: 0.584rem;
     text-align: center;
     color: #fff;
     background-color:#ff9700; 
 }
 .pin-num{
     display: inline-block;
-    width: 2.375rem;
-    height: 0.625rem;
-    line-height: 0.625rem;
+    width: 2.03rem;
+    height: 0.534rem;
+    line-height: 0.534rem;
     color:#ff9700; 
-    border:0.03rem solid #ff9700;
+    border:0.025rem solid #ff9700;
     text-align:center;
 }
 .all-prg{
-    width: 11.095rem;
-    height: 0.19rem;
+    width: 9.466rem;
+    height: 0.162rem;
     background-color: #CBE9F8;
-    border-radius: 0.095rem;
+    border-radius: 0.081rem;
 }
 .act-prg{
-    width: 3.69rem;
-    height:0.19rem;
+    width: 3.148rem;
+    height:0.162rem;
     background-color: #1797CE;
-    border-radius: 0.095rem;
+    border-radius: 0.081rem;
 }
 .tuan-num{
-    font-size: 0.375rem;
+    font-size: 0.32rem;
     color: #333;
     margin-top: 0.155rem;
     margin-bottom: 0.47rem;
 }
 .tuan-num b{
-    margin: 0 0.15625rem;
-    font-size: 0.475rem;
+    margin: 0 0.133rem;
+    font-size: 0.405rem;
 }
 .all-num{
     color: pink;
@@ -188,52 +188,52 @@ body{
 }
 .warning{
     color: #999;
-    font-size: 0.375rem;
+    font-size: 0.32rem;
     vertical-align: middle;
 }
 .warning img{
-    width: 0.44rem;
-    height: 0.44rem;
-    margin-right: 0.2rem;
+    width: 0.375rem;
+    height: 0.375rem;
+    margin-right: 0.17rem;
     vertical-align: middle;
 }
 .pep-num{
     background-color: #fff;
 }
 .h-title{
-    height: 0.5rem;
-    line-height: 0.5rem;
-    padding-left: 0.3rem;
-    padding-bottom: 0.3rem;
-    border-bottom: 0.015rem solid #D8D8D8;
+    height: 0.43rem;
+    line-height: 0.43rem;
+    padding-left: 0.267rem;
+    padding-bottom: 0.267rem;
+    border-bottom: 0.0128rem solid #D8D8D8;
 }
 .h-text{
     position: relative;
-    font-size: 0.47rem;
+    font-size: 0.4rem;
     color: #333;
 }
 .h-text:before{
     content: '';
     position: absolute;
-    left: -0.25rem;
-    top: 0.1rem;
-    width: 0.1rem;
-    height: 0.38rem;
+    left: -0.267rem;
+    top: 0.085rem;
+    width: 0.085rem;
+    height: 0.322rem;
     border-radius: 0.3125rem;
     background-color:  #1797CE;
 }
 .more{
     vertical-align: bottom;
-    font-size: 0.375rem;
+    font-size: 0.32rem;
     color: #999;
 }
 .pep-names{
-    height: 1.095rem;
-    margin-top: 0.4rem;
+    height: 0.934rem;
+    margin-top: 0.17rem;
 }
 .pep-names img{
-    width: 1.095rem;
-    height: 1.095rem;
+    width: 0.934rem;
+    height: 0.934rem;
     border-radius: 100%;
 }
 .pep-detail{
@@ -248,30 +248,31 @@ i{
     margin-right: 0.3rem;
 }
 .pep-detail .detail{
-    font-size: 0.47rem;
+    font-size: 0.4rem;
 }
 .pep-last{
-    font-size: 0.375rem;
+    font-size: 0.32rem;
     color: #999;
 }
 .pep-nub{
-    margin:0 0.2rem;
+    margin:0 0.17rem;
     color: #FF4443;
 }
 .go-pinke{
     display: block;
-    width: 2.125rem;
-    height: 0.905rem;
-    margin-top: 0.095rem;
-    line-height: 0.905rem;
+    width: 1.813rem;
+    height: 0.772rem;
+    margin-top: 0.081rem;
+    line-height: 0.772rem;
     color: #fff;
-    font-size: 0.405rem;
+    font-size: 0.345rem;
     text-align: center;
     background-color: #FF4443;
-    border-radius: 0.4525rem;
+    border-radius: 0.386rem;
 }
+/*拼团玩法*/
 .play-ways{
-    font-size: 0.345rem;
+    font-size: 0.28rem;
     color: #333;
     background-color: #fff;
 }
@@ -285,26 +286,29 @@ i{
 }
 .play-steps li{
     /*flex: 1;*/
-    margin-right: 0.1rem;
+    width: 
+    margin-right: 0.0853rem;
 }
 .play-steps li img{
-    width: 0.44rem;
-    height: 0.44rem;
-    margin-top: 0.26rem;
-    margin-right: 0.1rem;
+    width: 0.375rem;
+    height: 0.375rem;
+    margin-top: 0.222rem;
+    margin-right: 0.08rem;
 }
 .play-steps li .left{
-    margin-top: 0.3rem;
-    margin-left: 0.25rem;
+    margin-top: 0.2rem;
+
 }
+/*课程简介*/
 .class-int{
     background-color: #fff;
 }
 .class-text{
-    font-size: 0.47rem;
+    margin: 0.2rem 0;
+    font-size: 0.4rem;
     color: #333;
-    line-height: 0.7rem;
-    font-size: 0.53rem;
+    line-height: 0.6rem;
+    font-size: 0.45rem;
     text-overflow: -o-ellipsis-lastline;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -314,35 +318,37 @@ i{
     -webkit-box-orient: vertical;
 }
 .class-img{
-    height: 6.565rem;
+    height: 5.6rem;
 }
 .class-img img{
     width: 100%;
     height: 100%;
 }
+/*适用人群*/
 .int-pep{
     background-color: #fff;
 }
 .int-pep ul{
     width: 5rem;
     margin:0 auto;
-    text-align: left;
+    /*text-align: left;*/
 }
 .int-pep li{
-    height:0.6rem;
+    height:0.512rem;
     margin-top: 0.3rem;
     color: #222;
-    font-size:0.47rem;  
+    font-size:0.4rem;  
     line-height: 0.6rem;
 }
 .int-pep li img{
-    width: 0.565rem;
-    height: 0.565rem;
+    width: 0.48rem;
+    height: 0.48rem;
     vertical-align: middle;
 }
 .int-pep li span{
     vertical-align: middle;
 }
+/*授课教师*/
 .teacher{
     background-color: #fff
 }
@@ -350,8 +356,8 @@ i{
     margin-top: 0.3rem;
 }
 .head-pto{
-    width: 2.19rem;
-    height: 2.19rem;
+    width: 1.87rem;
+    height: 1.87rem;
 }
 .head-pto img{
     width: 100%;
@@ -360,21 +366,21 @@ i{
 }
 .teacher-inf{
     margin-left: 0.1rem;
-    width: 8.7rem;
+    width: 7.4rem;
 }
 .tec-name{
     color: #222;
-    font-size: 0.53rem;
+    font-size: 0.45rem;
     vertical-align: middle;
 }
 .tex-label{
     display: inline-block;
     width: 1.7rem;
     height:0.5rem;
-    margin-left: 0.2rem;
+    margin-left: 0.17rem;
     line-height: 0.5rem;
     color: #fff;
-    font-size: 0.315rem;
+    font-size: 0.22rem;
     text-align: center;
     background-color: #ffcd18;
     vertical-align: middle;
@@ -382,18 +388,18 @@ i{
 .tec-title{
     color: #1AA1FB;
     line-height: 0.5rem;
-    font-size: 0.375rem;
+    font-size: 0.32rem;
 }
 .tec-text{
     color: #222;
-    font-size: 0.47rem;
+    font-size: 0.4rem;
 }
 .class-outl{
     background: #fff;
 }
 .outl-cont{
     color: #333;
-    font-size: 0.47rem;
+    font-size: 0.4rem;
 }
 .not-reg{
     background: #fff;
@@ -401,7 +407,7 @@ i{
 .not-cont,.start-cont{
     margin-top: 0.2rem;
     color: #333;
-    font-size: 0.47rem;
+    font-size: 0.4rem;
 }
 .start-class{
     background: #fff;
@@ -410,10 +416,10 @@ i{
     margin-left: 0.5rem;
 }
 .start-txt{
-    width: 7.4525rem;
+    width: 6rem;
 }
 .wid{
-    width: 2rem;
+    width: 1.7rem;
 }
 .start-cont span{
     float: left;
@@ -422,7 +428,7 @@ i{
     margin-top: 0.2rem;
 }
 .didian{
-    padding-left: 0.5rem;
+    padding-left: 0.43rem;
     border-left: 1px solid #eee;
 }
 .didian img{
@@ -436,8 +442,8 @@ i{
     margin-top: 0.3rem;
 }
 .insnal-img{
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.133rem;
+    height: 2.133rem;
     margin-right: 0.3rem;
 }
 .insnal-img img{
@@ -445,20 +451,42 @@ i{
     height: 100%;
 }
 .insnal-title{
-    font-size: 0.53rem;
+    font-size: 0.45rem;
     color:#222;
-    overflow:hidden;  
+    overflow:hidden;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;  
 }
 .insnal-info{
-    padding-left: 0.3rem;
+    padding-left: 0.1rem;
     color: #61696f;
-    font-size: 0.375rem;
-
 }
 .insnal-info img{
-    width: 0.3rem;
-    height: 0.3rem;
+    width: 0.256rem;
+    height: 0.256rem;
+    vertical-align: middle;
+    margin-right: 0.2rem;
 }
 .insnal-info p{
     line-height: 0.53rem;
+    font-size: 0.375rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+
+/*底部*/
+.foot-cont{
+    position: fixed;
+    left: 50%;
+    bottom:0;
+    margin-left: -5rem;
+    width: 10rem;
+    height: 1.2rem;
+    background: pink;
+}
+.foot-btn{
+    height: 1.2rem;
+    background: black;
 }
