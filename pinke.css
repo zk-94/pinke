@@ -487,6 +487,49 @@ i{
     background: pink;
 }
 .foot-btn{
+    width: 10rem;
     height: 1.2rem;
-    background: black;
+    color: #222;
+    background:#fff;
+    font-size: 0.3rem;
+}
+.foot-btn li{
+    text-align: center;
+    height: 1.2rem;
+}
+.zan{
+    width: 1.74rem;
+    background: #fff;
+    border-right: 0.01rem solid #eee;
+}
+.zan img,.wen img{
+    width: 0.4rem;
+    height: 0.41rem;
+    margin-top: 0.2rem;
+    vertical-align: middle;
+}
+.wen{
+    width: 1.75rem;
+    background: #fff;
+}
+.foot-phone{
+    width: 1.9rem;
+    background: #1797CE;
+    line-height: 1.2rem;
+}
+.foot-phone img{
+    width: 0.45rem;
+    height: 0.48rem;
+    vertical-align: middle;
+}
+.foot-price{
+    width: 4.6rem;
+    padding-top: 0.1rem;
+    color: #fff;
+    background: #FF4443;
+    text-align: center;
+}
+.price-tit{
+    font-size: 0.45rem;
+    margin-top: 0.2rem;
 }
